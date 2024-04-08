@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 35px;
+    width: 30%;
+    margin-left: 30%;
+    background-color: rgb(104, 152, 241);
+    box-shadow: 5px 5px rgb(50, 92, 206);
+    border-radius: 20px;
+}
+
+.formulario form label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 15px;
+
+}
+
+input {
+    outline: none;
+    padding: 8px;
+    width: 60%;
+    margin-left: 70px;
+    border: none;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 20%;
+    margin-left: 40%;
+    border-radius: 15px;
+    border: none;
+    padding:10px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+
+}

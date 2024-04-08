@@ -1,0 +1,123 @@
+/*google font importamos la fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Ubuntu:wght@300;400;500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif; 
+    
+}
+/*diseño del contenedor*/
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:30px;/*espacio entre lineas*/
+    width: 450px;
+    margin: auto;
+}
+/* diseño botones */
+.botones{
+ align-self: flex-start;
+ display: flex;
+ gap: 15px;
+}
+
+
+/* estilo del separador */
+.separador{
+    display: flex;
+    width:100%;
+    gap:15px;
+}
+.separador hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+.separador span{
+    color: #8b8b8b;
+}
+/* estilo del formulario */
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+}
+/* estilo del input nombre y input apellido */
+.seccion-inputs{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+label{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+/* inputs nombre apellidos */
+.seccion-inputs label input {
+    width: 90%;
+    background-color: #f3f3f4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14pt;
+    
+}
+/* input normales */
+label input {
+    width: 91%;
+    background-color: #f3f3f4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+}
+label span{
+    font-weight: 600;
+}
+label input:hover{
+    background-color: white;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px cornflowerblue;
+
+}
+label input:focus{
+    background-color: white;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px cornflowerblue;
+}
+
+.checkbox-label{
+    display: flex;
+    flex-direction: row;
+    
+}
+.checkbox-label input[type="checkbox"]{
+    width: 15px;
+   
+}
+.checkbox-label span{
+    font-weight: 400;
+}
+.submit-boton{
+    background-color:#ea4c89;
+    color: white;
+    font-weight: 500;
+    font-size: 14pt;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit-boton:hover{
+    opacity: 0.75;
+}
